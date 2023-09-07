@@ -1,1 +1,1 @@
-enum Level { employee, manager, hr }
+enum Level { employee, maganger, hr }

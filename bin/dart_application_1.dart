@@ -2,9 +2,9 @@ import 'package:dart_application_1/dart_application_1.dart'
     as dart_application_1;
 
 import 'data.dart';
-import 'employee.dart';
 import 'enums.dart';
-import 'meal.dart';
+import 'ex2/semsters_Data.dart';
+import 'ex2/student_semsters.dart';
 
 enum Certification { diploma, ba, high }
 
@@ -111,7 +111,11 @@ print the name of each student with the average of his grades
     namesCount.add(element.length);
   });
   namesCount = namesList.map((e) => e.length).toList();*/
+  // ! ? ??
+  Student student = Student(studentMap);
+  print(student.semesters?[0].subjects?[0].name ?? "not defined");
 }
+
 /*
 - create class called employee which has the following attributes:
  - name as string
@@ -119,13 +123,6 @@ print the name of each student with the average of his grades
  - level as enum ( manager, hr, employee)
  - create constructor for the class in the following instructions
    - name is positional
-   - the remaining is optional names parameters with defeult values
+   - the remaining is optional named parameters with defeult values
 create object with dummy data
-* create second consrtuctor called fromMap, 
-* this constructor will recieve map as parameter and pass values to attibutes
-based on map
-print the name of the object
-
 */
-
-
