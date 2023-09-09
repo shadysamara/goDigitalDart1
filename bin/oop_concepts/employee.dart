@@ -35,7 +35,17 @@ class IugSecurity extends IugEmployee {
 }
 /*
 create class called student which has the following attrbutes:
-- name ,  List<Subject> subjects
+- name 
+- List<Subject> subjects (int? hour,String name, double grade), 
+- enum level (school, university)
+- calculateGpa as abstract function
+- define constructor so that all parameters will be required
+
+create anotherClass called unuversityStudent and overrid the function so that the gpa will
+calculate based on the subject grade and hours count
+
+create another class called schoolStudent and override the functopn so that it will
+be calculated based on subject grade only
 
 
 */
