@@ -1,4 +1,4 @@
-List<Map> Meals = [
+List<Map> meals = [
   {
     "name": "Burger",
     "image": "20",
@@ -11,7 +11,7 @@ List<Map> Meals = [
       "cheese": [
         {"quantity": "50 gm", "price": "10"},
         {"quantity": "20 gm", "price": "5"},
-      ]
+      ],
     },
     "ingreditns": [
       {
