@@ -12,6 +12,10 @@ List<Map> meals = [
         {"quantity": "50 gm", "price": "10"},
         {"quantity": "20 gm", "price": "5"},
       ],
+      "olives": [
+        {"quantity": "50 gm", "price": "10"},
+        {"quantity": "20 gm", "price": "5"},
+      ],
     },
     "ingreditns": [
       {

@@ -1,14 +1,10 @@
 import 'package:dart_application_1/dart_application_1.dart'
     as dart_application_1;
-import 'enums.dart' as myEnum;
-
-import 'assignment/assigment_solution.dart';
+import 'assignment/assignemnt_solution.dart';
 import 'assignment/assignemt_data.dart';
 import 'data.dart';
 import 'ex2/semsters_Data.dart';
 import 'ex2/student_semsters.dart';
-import 'oop_concepts/employee.dart';
-import 'oop_concepts/employee_solution.dart';
 
 enum Certification { diploma, ba, high }
 
@@ -116,11 +112,7 @@ print the name of each student with the average of his grades
   });
   namesCount = namesList.map((e) => e.length).toList();*/
   // ! ? ??
-  SchoolStudent schoolStudent = SchoolStudent("name", []);
-  IugStudent iugStudent = IugStudent()
-    ..level = Level.school
-    ..name = "omar"
-    ..subjects = [];
+  List<Meal> mealsList = meals.map((e) => Meal(e)).toList();
 }
 
 /*
