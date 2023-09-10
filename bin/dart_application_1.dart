@@ -118,12 +118,16 @@ print the name of each student with the average of his grades
 }
 
 /*
-- create class called employee which has the following attributes:
- - name as string
- - salary as int
- - level as enum ( manager, hr, employee)
- - create constructor for the class in the following instructions
-   - name is positional
-   - the remaining is optional named parameters with defeult values
-create object with dummy data
+- create class called student which has the following attributes:
+1- name as string?
+2- id as integer?
+3- level as enum (university,school)
+4- list<course> each course has (name, grade, hours)
+5- function called calculateGpa as abstract
+
+- create two other classes called  unuversityStudent and 
+schoolStudents which extends from Student
+- override the calculateGpa function and write the implemntation
+based on the class
+
 */

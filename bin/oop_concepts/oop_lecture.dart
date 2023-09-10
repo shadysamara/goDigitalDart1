@@ -33,7 +33,7 @@ class AcademicEmployee extends Employee {
 }
 
 class ManagmentEmployee extends Employee {
-  double? initSalary;
+  double initSalary;
   bool? isMarried;
   int? nofSons;
   ManagmentEmployee(
@@ -42,8 +42,7 @@ class ManagmentEmployee extends Employee {
   @override
   double? calculateSalary() {
     // TODO: implement calculateSalary
-    salary =
-        initSalary ?? 200 + ((isMarried ?? false) ? ((nofSons ?? 0) * 10) : 0);
+    salary = initSalary + ((isMarried ?? false) ? ((nofSons ?? 0) * 10) : 0);
     return salary!.toDouble();
   }
 }
