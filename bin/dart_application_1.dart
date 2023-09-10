@@ -5,6 +5,7 @@ import 'assignment/assignemt_data.dart';
 import 'data.dart';
 import 'ex2/semsters_Data.dart';
 import 'ex2/student_semsters.dart';
+import 'oop_concepts/oop_lecture.dart';
 
 enum Certification { diploma, ba, high }
 
@@ -112,7 +113,8 @@ print the name of each student with the average of his grades
   });
   namesCount = namesList.map((e) => e.length).toList();*/
   // ! ? ??
-  List<Meal> mealsList = meals.map((e) => Meal(e)).toList();
+  AcademicEmployee academicEmployee = AcademicEmployee("", 0, 1.3);
+  academicEmployee.fun();
 }
 
 /*
